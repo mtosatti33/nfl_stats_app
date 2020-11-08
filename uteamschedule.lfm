@@ -1,0 +1,104 @@
+object frmTeamSchedule: TfrmTeamSchedule
+  Left = 253
+  Height = 382
+  Top = 149
+  Width = 502
+  Caption = 'Team Schedule'
+  ClientHeight = 382
+  ClientWidth = 502
+  OnShow = FormShow
+  LCLVersion = '2.0.6.0'
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 382
+    Hint = 'F1 Key                           = Swap Team'#10'Esc or ''q''                     = Close the Form'
+    Top = 0
+    Width = 502
+    Align = alClient
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Dt'
+        Width = 96
+        FieldName = 'Dt'
+      end    
+      item
+        Title.Caption = 'Tm'
+        Width = 65
+        FieldName = 'Tm'
+      end    
+      item
+        Title.Caption = 'Opp'
+        Width = 65
+        FieldName = 'Opp'
+      end    
+      item
+        Title.Caption = 'T.Score'
+        Width = 45
+        FieldName = 'T.Score'
+      end    
+      item
+        Title.Caption = 'O.Score'
+        Width = 45
+        FieldName = 'O.Score'
+      end    
+      item
+        Title.Caption = 'Won?'
+        Width = 45
+        FieldName = 'Won?'
+      end>
+    DataSource = DataSource1
+    Font.Height = -11
+    Font.Name = 'Sans'
+    Options = [dgTitles, dgIndicator, dgRowSelect]
+    ParentFont = False
+    Scrollbars = ssNone
+    ShowHint = True
+    TabOrder = 0
+    TitleFont.Height = -11
+    TitleFont.Name = 'Sans'
+    TitleStyle = tsNative
+    OnDblClick = DBGrid1DblClick
+    OnKeyDown = DBGrid1KeyDown
+  end
+  object DataSource1: TDataSource
+    DataSet = ZQuery1
+    left = 192
+    top = 152
+  end
+  object ZQuery1: TZQuery
+    Connection = dm.ZConnection1
+    Active = True
+    SQL.Strings = (
+      '-- INSTRUÇÃO SQL QUE RETORNA O CALENDÁRIO DO TIME--'
+      'select distinct g."year", g.game_id, g."date" as "Dt", g.team as "Tm", g.opponent as "Opp", g.player_team_score as "T.Score", g.opponent_score as "O.Score", g.game_won as "Won?"'
+      'from games g'
+      'where g.team = :team'
+      'and g."year" =:year'
+    )
+    Params = <    
+      item
+        DataType = ftUnknown
+        Name = 'team'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'year'
+        ParamType = ptUnknown
+      end>
+    left = 104
+    top = 152
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'team'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'year'
+        ParamType = ptUnknown
+      end>
+  end
+end

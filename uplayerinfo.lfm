@@ -1,0 +1,440 @@
+object frmPlayerInfo: TfrmPlayerInfo
+  Left = 0
+  Height = 442
+  Top = 249
+  Width = 380
+  Caption = 'Player Info'
+  ClientHeight = 442
+  ClientWidth = 380
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  LCLVersion = '2.0.6.0'
+  object DBText1: TDBText
+    Left = 168
+    Height = 17
+    Top = 16
+    Width = 196
+    AutoSize = False
+    DataField = 'name'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 37
+    Height = 17
+    Top = 16
+    Width = 40
+    AutoSize = False
+    Caption = 'Name'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText2: TDBText
+    Left = 168
+    Height = 17
+    Top = 40
+    Width = 196
+    AutoSize = False
+    DataField = 'position'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 37
+    Height = 17
+    Top = 40
+    Width = 25
+    AutoSize = False
+    Caption = 'Pos'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText3: TDBText
+    Left = 168
+    Height = 17
+    Top = 88
+    Width = 32
+    AutoSize = False
+    DataField = 'weight'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 37
+    Height = 17
+    Top = 88
+    Width = 122
+    AutoSize = False
+    Caption = 'Weight'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText4: TDBText
+    Left = 168
+    Height = 17
+    Top = 144
+    Width = 196
+    AutoSize = False
+    DataField = 'birth_date'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 37
+    Height = 17
+    Top = 144
+    Width = 70
+    AutoSize = False
+    Caption = 'Birth Date'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText5: TDBText
+    Left = 168
+    Height = 17
+    Top = 168
+    Width = 196
+    AutoSize = False
+    DataField = 'birth_place'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 37
+    Height = 17
+    Top = 168
+    Width = 74
+    AutoSize = False
+    Caption = 'Birth Place'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText6: TDBText
+    Left = 168
+    Height = 17
+    Top = 192
+    Width = 196
+    AutoSize = False
+    DataField = 'death_date'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 37
+    Height = 17
+    Top = 192
+    Width = 77
+    AutoSize = False
+    Caption = 'Death Date'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText7: TDBText
+    Left = 168
+    Height = 17
+    Top = 224
+    Width = 196
+    AutoSize = False
+    DataField = 'college'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 37
+    Height = 17
+    Top = 224
+    Width = 51
+    AutoSize = False
+    Caption = 'College'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText8: TDBText
+    Left = 168
+    Height = 17
+    Top = 248
+    Width = 196
+    AutoSize = False
+    DataField = 'high_school'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 37
+    Height = 17
+    Top = 248
+    Width = 82
+    AutoSize = False
+    Caption = 'High School'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText9: TDBText
+    Left = 168
+    Height = 17
+    Top = 112
+    Width = 196
+    AutoSize = False
+    DataField = 'current_team'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 37
+    Height = 17
+    Top = 112
+    Width = 93
+    AutoSize = False
+    Caption = 'Current Team'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText10: TDBText
+    Left = 168
+    Height = 17
+    Top = 64
+    Width = 32
+    AutoSize = False
+    DataField = 'height'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 37
+    Height = 17
+    Top = 64
+    Width = 123
+    AutoSize = False
+    Caption = 'Height'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText11: TDBText
+    Left = 168
+    Height = 17
+    Top = 272
+    Width = 200
+    AutoSize = False
+    DataField = 'draft_team'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 37
+    Height = 17
+    Top = 272
+    Width = 94
+    AutoSize = False
+    Caption = 'Team Drafted'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText12: TDBText
+    Left = 168
+    Height = 17
+    Top = 296
+    Width = 200
+    AutoSize = False
+    DataField = 'draft_round'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 37
+    Height = 17
+    Top = 296
+    Width = 45
+    AutoSize = False
+    Caption = 'Round'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText13: TDBText
+    Left = 168
+    Height = 17
+    Top = 320
+    Width = 200
+    AutoSize = False
+    DataField = 'draft_position'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 37
+    Height = 17
+    Top = 320
+    Width = 28
+    AutoSize = False
+    Caption = 'Pick'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText14: TDBText
+    Left = 168
+    Height = 17
+    Top = 344
+    Width = 200
+    AutoSize = False
+    DataField = 'draft_year'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 37
+    Height = 17
+    Top = 344
+    Width = 30
+    AutoSize = False
+    Caption = 'Year'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnStats: TButton
+    Left = 0
+    Height = 42
+    Hint = ' Click or Enter = Enter the player information'#10' Esc or ''q''           = Close the Form'
+    Top = 400
+    Width = 380
+    Align = alBottom
+    Caption = 'View Stats'
+    OnClick = btnStatsClick
+    OnKeyDown = btnStatsKeyDown
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object DBText15: TDBText
+    Left = 208
+    Height = 17
+    Top = 64
+    Width = 88
+    AutoSize = False
+    DataField = 'height_meters'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText16: TDBText
+    Left = 208
+    Height = 17
+    Top = 88
+    Width = 88
+    AutoSize = False
+    DataField = 'weight_kilograms'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label17: TLabel
+    Left = 37
+    Height = 17
+    Top = 368
+    Width = 115
+    AutoSize = False
+    Caption = 'HOF Induction'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText17: TDBText
+    Left = 168
+    Height = 17
+    Top = 368
+    Width = 196
+    AutoSize = False
+    DataField = 'hof_induction_year'
+    DataSource = DataSource1
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object ZQuery1: TZQuery
+    Connection = dm.ZConnection1
+    SQL.Strings = (
+      'select '
+      'p.player_id,'
+      'p."name",'
+      'p."position",'
+      'p.height,'
+      'cast(''('' || p.height_meters || '' cm)'' as varchar(8)) as "height_meters",'
+      'p.weight,'
+      'cast(''('' || p.weight_kilograms || '' kg)'' as varchar(8)) as "weight_kilograms",'
+      'p.current_team,'
+      'p.birth_date,'
+      'p.birth_place,'
+      'p.death_date,'
+      'p.college,'
+      'p.high_school,'
+      'cast(coalesce(p.draft_team,''Undrafted'') as varchar(50)) as draft_team, '
+      'p.draft_round,'
+      'p.draft_position,'
+      'p.draft_year,'
+      'p.current_salary,'
+      'p.hof_induction_year'
+      ' from players p where p.player_id=:player_id'
+    )
+    Params = <    
+      item
+        DataType = ftUnknown
+        Name = 'player_id'
+        ParamType = ptUnknown
+      end>
+    left = 8
+    top = 408
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'player_id'
+        ParamType = ptUnknown
+      end>
+  end
+  object DataSource1: TDataSource
+    DataSet = ZQuery1
+    left = 56
+    top = 408
+  end
+end

@@ -1,0 +1,743 @@
+object frmTeamStatsByYear: TfrmTeamStatsByYear
+  Left = 41
+  Height = 674
+  Top = 34
+  Width = 1319
+  Caption = 'Team Stats By Year'
+  ClientHeight = 674
+  ClientWidth = 1319
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 14
+    Top = 8
+    Width = 32
+    Caption = 'Team'
+    ParentColor = False
+  end
+  object ComboBox1: TComboBox
+    Left = 48
+    Height = 27
+    Top = 8
+    Width = 100
+    AutoComplete = True
+    AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+    CharCase = ecUppercase
+    ItemHeight = 0
+    OnChange = ComboBox1Change
+    OnKeyDown = ComboBox1KeyDown
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 168
+    Height = 14
+    Top = 8
+    Width = 26
+    Caption = 'Year'
+    ParentColor = False
+  end
+  object DBGrid1: TDBGrid
+    Left = 8
+    Height = 576
+    Hint = 'F1 Key                           = Swap Team'#10'Esc or ''q''                     = Close the Form'
+    Top = 40
+    Width = 1302
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Player'
+        FieldName = 'Player'
+      end    
+      item
+        Title.Caption = 'Pos'
+        FieldName = 'Pos'
+      end    
+      item
+        Title.Caption = 'G'
+        FieldName = 'G'
+      end    
+      item
+        Title.Caption = 'C/A'
+        FieldName = 'C/A'
+      end    
+      item
+        Title.Caption = 'Pa.Pct'
+        FieldName = 'Pa.Pct'
+      end    
+      item
+        Title.Caption = 'Pa.Yds'
+        FieldName = 'Pa.Yds'
+      end    
+      item
+        Title.Caption = 'Pa.TD'
+        FieldName = 'Pa.TD'
+      end    
+      item
+        Title.Caption = 'Pa.Int'
+        FieldName = 'Pa.Int'
+      end    
+      item
+        Title.Caption = 'Rate'
+        FieldName = 'Rate'
+      end    
+      item
+        Title.Caption = 'Sckd'
+        FieldName = 'Sckd'
+      end    
+      item
+        Title.Caption = 'Rush'
+        FieldName = 'Rush'
+      end    
+      item
+        Title.Caption = 'Ru.Yds'
+        FieldName = 'Ru.Yds'
+      end    
+      item
+        Title.Caption = 'Ru.Av'
+        FieldName = 'Ru.Av'
+      end    
+      item
+        Title.Caption = 'Ru.TD'
+        FieldName = 'Ru.TD'
+      end    
+      item
+        Title.Caption = 'Tgt'
+        FieldName = 'Tgt'
+      end    
+      item
+        Title.Caption = 'Rec'
+        FieldName = 'Rec'
+      end    
+      item
+        Title.Caption = 'Re.Yds'
+        FieldName = 'Re.Yds'
+      end    
+      item
+        Title.Caption = 'Re.Av'
+        FieldName = 'Re.Av'
+      end    
+      item
+        Title.Caption = 'Re.TD'
+        FieldName = 'Re.TD'
+      end    
+      item
+        Title.Caption = 'Comb'
+        FieldName = 'Comb'
+      end    
+      item
+        Title.Caption = 'T/A'
+        FieldName = 'T/A'
+      end    
+      item
+        Title.Caption = 'Scks'
+        FieldName = 'Scks'
+      end    
+      item
+        Title.Caption = 'Int'
+        FieldName = 'Int'
+      end    
+      item
+        Title.Caption = 'Int.Yds'
+        FieldName = 'Int.Yds'
+      end    
+      item
+        Title.Caption = 'Int.TD'
+        FieldName = 'Int.TD'
+      end    
+      item
+        Title.Caption = 'Sft'
+        FieldName = 'Sft'
+      end    
+      item
+        Title.Caption = 'KR'
+        FieldName = 'KR'
+      end    
+      item
+        Title.Caption = 'KR.Yds'
+        FieldName = 'KR.Yds'
+      end    
+      item
+        Title.Caption = 'KR.Av'
+        FieldName = 'KR.Av'
+      end    
+      item
+        Title.Caption = 'KR.TD'
+        FieldName = 'KR.TD'
+      end    
+      item
+        Title.Caption = 'PR'
+        FieldName = 'PR'
+      end    
+      item
+        Title.Caption = 'PR.Yds'
+        FieldName = 'PR.Yds'
+      end    
+      item
+        Title.Caption = 'PR.Av'
+        FieldName = 'PR.Av'
+      end    
+      item
+        Title.Caption = 'PR.TD'
+        FieldName = 'PR.TD'
+      end    
+      item
+        Title.Caption = 'FM/FA'
+        FieldName = 'FM/FA'
+      end    
+      item
+        Title.Caption = 'FG.Pct'
+        FieldName = 'FG.Pct'
+      end    
+      item
+        Title.Caption = 'XM/XA'
+        FieldName = 'XM/XA'
+      end    
+      item
+        Title.Caption = 'XP.Pct'
+        FieldName = 'XP.Pct'
+      end    
+      item
+        Title.Caption = 'Punts'
+        FieldName = 'Punts'
+      end    
+      item
+        Title.Caption = 'Pu.Yds'
+        FieldName = 'Pu.Yds'
+      end    
+      item
+        Title.Caption = 'Pu.Av'
+        FieldName = 'Pu.Av'
+      end    
+      item
+        Title.Caption = 'Blckd'
+        FieldName = 'Blckd'
+      end    
+      item
+        Title.Caption = 'Fmb'
+        FieldName = 'Fmb'
+      end    
+      item
+        Title.Caption = 'Lost'
+        FieldName = 'Lost'
+      end    
+      item
+        Title.Caption = 'FF'
+        FieldName = 'FF'
+      end    
+      item
+        Title.Caption = 'FR'
+        FieldName = 'FR'
+      end>
+    DataSource = DataSource1
+    Font.Height = -11
+    Font.Name = 'Sans'
+    Options = [dgTitles, dgIndicator, dgRowHighlight]
+    ParentFont = False
+    Scrollbars = ssNone
+    ShowHint = True
+    TabOrder = 1
+    TitleFont.Height = -11
+    TitleFont.Name = 'Sans'
+    TitleStyle = tsNative
+    OnDblClick = DBGrid1DblClick
+    OnKeyDown = DBGrid1KeyDown
+    OnKeyUp = DBGrid1KeyUp
+  end
+  object UpDown1: TUpDown
+    Left = 280
+    Height = 27
+    Top = 8
+    Width = 17
+    Associate = Edit1
+    Min = 1950
+    Position = 1950
+    TabOrder = 2
+    Thousands = False
+  end
+  object Edit1: TEdit
+    Left = 200
+    Height = 27
+    Top = 8
+    Width = 80
+    NumbersOnly = True
+    OnChange = ComboBox1Change
+    OnKeyDown = ComboBox1KeyDown
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 304
+    Height = 25
+    Top = 8
+    Width = 155
+    Caption = 'Schedule'
+    OnClick = Button1Click
+    OnKeyDown = DBGrid1KeyDown
+    TabOrder = 4
+  end
+  object DBGrid2: TDBGrid
+    Left = 8
+    Height = 41
+    Hint = 'F1 Key                           = Swap Team'#10'Esc or ''q''                     = Close the Form'
+    Top = 616
+    Width = 1302
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Title'
+      end    
+      item
+        Title.Caption = 'Title'
+      end    
+      item
+        Title.Caption = 'Title'
+      end    
+      item
+        Title.Caption = 'Cmp/Att'
+        FieldName = 'Cmp/Att'
+      end    
+      item
+        Title.Caption = 'Pct.'
+        FieldName = 'Pct.'
+      end    
+      item
+        Title.Caption = 'Pa.Yds.'
+        FieldName = 'Pa.Yds.'
+      end    
+      item
+        Title.Caption = 'Pa.TD.'
+        FieldName = 'Pa.TD.'
+      end    
+      item
+        Title.Caption = 'Pa.Int'
+        FieldName = 'Pa.Int'
+      end    
+      item
+        Title.Caption = 'Rate'
+        FieldName = 'Rate'
+      end    
+      item
+        Title.Caption = 'Sacked'
+        FieldName = 'Sacked'
+      end    
+      item
+        Title.Caption = 'Rush'
+        FieldName = 'Rush'
+      end    
+      item
+        Title.Caption = 'Ru.Yds.'
+        FieldName = 'Ru.Yds.'
+      end    
+      item
+        Title.Caption = 'Ru.Avg.'
+        FieldName = 'Ru.Avg.'
+      end    
+      item
+        Title.Caption = 'Ru.TD.'
+        FieldName = 'Ru.TD.'
+      end    
+      item
+        Title.Caption = 'Tgt.'
+        FieldName = 'Tgt.'
+      end    
+      item
+        Title.Caption = 'Rec.'
+        FieldName = 'Rec.'
+      end    
+      item
+        Title.Caption = 'Re.Yds.'
+        FieldName = 'Re.Yds.'
+      end    
+      item
+        Title.Caption = 'Re.Avg.'
+        FieldName = 'Re.Avg.'
+      end    
+      item
+        Title.Caption = 'Re.TD.'
+        FieldName = 'Re.TD.'
+      end    
+      item
+        Title.Caption = 'Comb.'
+        FieldName = 'Comb.'
+      end    
+      item
+        Title.Caption = 'T/A'
+        FieldName = 'T/A'
+      end    
+      item
+        Title.Caption = 'Sacks'
+        FieldName = 'Sacks'
+      end    
+      item
+        Title.Caption = 'Int'
+        FieldName = 'Int'
+      end    
+      item
+        Title.Caption = 'Yds.'
+        FieldName = 'Yds.'
+      end    
+      item
+        Title.Caption = 'Int.TD'
+        FieldName = 'Int.TD'
+      end    
+      item
+        Title.Caption = 'Sft.'
+        FieldName = 'Sft.'
+      end    
+      item
+        Title.Caption = 'FF'
+        FieldName = 'FF'
+      end    
+      item
+        Title.Caption = 'FR'
+        FieldName = 'FR'
+      end    
+      item
+        Title.Caption = 'KR.'
+        FieldName = 'KR.'
+      end    
+      item
+        Title.Caption = 'KR.Yds.'
+        FieldName = 'KR.Yds.'
+      end    
+      item
+        Title.Caption = 'KR.Avg.'
+        FieldName = 'KR.Avg.'
+      end    
+      item
+        Title.Caption = 'KR.TD.'
+        FieldName = 'KR.TD.'
+      end    
+      item
+        Title.Caption = 'PR.'
+        FieldName = 'PR.'
+      end    
+      item
+        Title.Caption = 'PR.Yds.'
+        FieldName = 'PR.Yds.'
+      end    
+      item
+        Title.Caption = 'PR.Avg.'
+        FieldName = 'PR.Avg.'
+      end    
+      item
+        Title.Caption = 'PR.TD.'
+        FieldName = 'PR.TD.'
+      end    
+      item
+        Title.Caption = 'FGM/FGA'
+        FieldName = 'FGM/FGA'
+      end    
+      item
+        Title.Caption = 'FG.Pct.'
+        FieldName = 'FG.Pct.'
+      end    
+      item
+        Title.Caption = 'XPM/XPA'
+        FieldName = 'XPM/XPA'
+      end    
+      item
+        Title.Caption = 'XP.Pct.'
+        FieldName = 'XP.Pct.'
+      end    
+      item
+        Title.Caption = 'Punts'
+        FieldName = 'Punts'
+      end    
+      item
+        Title.Caption = 'Pu.Yds'
+        FieldName = 'Pu.Yds'
+      end    
+      item
+        Title.Caption = 'Pu.Avg.'
+        FieldName = 'Pu.Avg.'
+      end    
+      item
+        Title.Caption = 'Blocked'
+        FieldName = 'Blocked'
+      end    
+      item
+        Title.Caption = 'Fmb.'
+        FieldName = 'Fmb.'
+      end    
+      item
+        Title.Caption = 'Lost'
+        FieldName = 'Lost'
+      end>
+    DataSource = DataSource2
+    Font.Height = -11
+    Font.Name = 'Sans'
+    Options = [dgIndicator, dgRowHighlight]
+    ParentFont = False
+    Scrollbars = ssNone
+    ShowHint = True
+    TabOrder = 5
+    TitleFont.Height = -11
+    TitleFont.Name = 'Sans'
+    TitleStyle = tsNative
+    OnKeyDown = DBGrid1KeyDown
+  end
+  object Button2: TButton
+    Left = 464
+    Height = 25
+    Top = 8
+    Width = 155
+    Caption = 'All-Time Leaders '
+    OnClick = Button2Click
+    OnKeyDown = DBGrid1KeyDown
+    TabOrder = 6
+  end
+  object ZQuery1: TZQuery
+    Connection = dm.ZConnection1
+    SQL.Strings = (
+      '-- INSTRUÇÃO SQL QUE RETORNA AS ESTATÍSTICAS DE CADA JOGADOR DO TIME POR ANO--'
+      'select '
+      'p.player_id,'
+      'p."name" as "Player",'
+      'p."position" as "Pos",'
+      'count(g.game_id) as "G",'
+      '-- Passing --'
+      'cast(sum(g.passing_completions) || ''/'' || sum(g.passing_attempts) as varchar(15)) as "C/A",'
+      'sum(g.passing_completions)/cast(nullif(sum(g.passing_attempts),0) as decimal(5,2))*100 as "Pa.Pct",'
+      'sum(g.passing_yards) as "Pa.Yds",'
+      'sum(g.passing_touchdowns) as "Pa.TD",'
+      'sum(g.passing_interceptions) as "Pa.Int",'
+      'avg(g.passing_rating) as "Rate",'
+      'sum(g.passing_sacks) as "Sckd",'
+      '-- Rushing --'
+      'sum(g.rushing_attempts) as "Rush",'
+      'sum(g.rushing_yards) as "Ru.Yds",'
+      'sum(g.rushing_yards)/cast(nullif(sum(g.rushing_attempts),0) as decimal(5,2)) as "Ru.Av",'
+      'sum(g.rushing_touchdowns) as "Ru.TD",'
+      '-- Receiving --'
+      'sum(g.receiving_targets) as "Tgt",'
+      'sum(g.receiving_receptions) as "Rec",'
+      'sum(g.receiving_yards) as "Re.Yds",'
+      'sum(g.receiving_yards)/cast(nullif(sum(g.receiving_receptions),0) as decimal(5,2)) as "Re.Av",'
+      'sum(g.receiving_touchdowns) as "Re.TD",'
+      '-- Defense --'
+      'sum(g.defense_tackles)+sum(g.defense_tackle_assists) as "Comb",'
+      'cast(sum(g.defense_tackles) || ''/'' || sum(g.defense_tackle_assists) as varchar(15)) as "T/A",'
+      'sum(g.defense_sacks) as "Scks",'
+      'sum(defense_interceptions) as "Int",'
+      'sum(g.defense_interception_yards) as "Int.Yds",'
+      'sum(g.defense_interception_touchdowns) as "Int.TD",'
+      'sum(g.defense_safeties) as "Sft",'
+      '-- Returning --'
+      'sum(g.kick_return_attempts) as "KR",'
+      'sum(g.kick_return_yards) as "KR.Yds",'
+      'sum(g.kick_return_yards)/cast(nullif(sum(g.kick_return_attempts),0) as decimal(5,2)) as "KR.Av",'
+      'sum(g.kick_return_touchdowns) as "KR.TD",'
+      'sum(g.punt_return_attempts) as "PR",'
+      'sum(g.punt_return_yards) as "PR.Yds",'
+      'sum(g.punt_return_yards)/cast(nullif(sum(g.punt_return_attempts),0) as decimal(5,2)) as "PR.Av",'
+      'sum(g.punt_return_touchdowns) as "PR.TD",'
+      '-- Kicking --'
+      'cast(sum(g.field_goal_makes) || ''/'' ||sum(g.field_goal_attempts) as varchar(15)) as "FM/FA",'
+      'sum(g.field_goal_makes)/cast(nullif(sum(g.field_goal_attempts),0) as decimal(5,2))*100 as "FG.Pct",'
+      'cast(sum(g.point_after_makes) || ''/'' ||sum(g.point_after_attempts) as varchar(15)) as "XM/XA",'
+      'sum(g.point_after_makes)/cast(nullif(sum(g.point_after_attempts),0) as decimal(5,2))*100 as "XP.Pct",'
+      '-- Punting --'
+      'sum(g.punting_attempts) as "Punts",'
+      'sum(g.punting_yards) as "Pu.Yds",'
+      'sum(g.punting_yards)/cast(nullif(sum(g.punting_attempts),0) as decimal(5,2)) as "Pu.Av",'
+      'sum(g.punting_blocked) as "Blckd",'
+      '-- Fumbles --'
+      'sum(g.fumbles) as "Fmb",'
+      'sum(g.fumbles_lost) as "Lost",'
+      'sum(g.fumbles_forced) as "FF",'
+      'sum(g.fumbles_rec) as "FR"'
+      'from games g, players p '
+      'where g.player_id = p.player_id '
+      'and g.team =:team'
+      'and g."year" =:year'
+      'group by p.player_id, p."name", p."position", g."year", g.team '
+      'having sum(g.passing_attempts) +'
+      'sum(g.rushing_attempts) +'
+      'sum(g.receiving_targets) +'
+      'sum(g.receiving_receptions) +'
+      'sum(g.defense_tackles)+'
+      'sum(g.defense_tackle_assists)+'
+      'sum(g.defense_interceptions) + '
+      'sum(g.defense_safeties) +'
+      'sum(g.field_goal_attempts)+'
+      'sum(g.point_after_attempts)+'
+      'sum(g.punting_attempts) +'
+      'sum(g.kick_return_attempts) + '
+      'sum(g.punt_return_attempts) <> 0'
+      'order by '
+      'sum(g.passing_yards) desc, '
+      'sum(g.passing_attempts) desc,'
+      'sum(g.rushing_yards) desc, '
+      'sum(g.rushing_attempts) desc,'
+      'sum(g.receiving_yards) desc, '
+      'sum(g.receiving_receptions) desc, '
+      'sum(g.receiving_targets) desc,'
+      'sum(g.defense_tackles) desc, '
+      'sum(g.defense_tackle_assists) desc,'
+      'sum(g.field_goal_attempts) desc,'
+      'sum(g.point_after_attempts) desc,'
+      'sum(g.punting_yards) desc,'
+      'sum(g.kick_return_yards) desc, '
+      'sum(g.kick_return_attempts) desc,'
+      'sum(g.punt_return_yards), '
+      'sum(g.punt_return_attempts) desc'
+    )
+    Params = <    
+      item
+        DataType = ftUnknown
+        Name = 'team'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'year'
+        ParamType = ptUnknown
+      end>
+    left = 148
+    top = 404
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'team'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'year'
+        ParamType = ptUnknown
+      end>
+  end
+  object DataSource1: TDataSource
+    DataSet = ZQuery1
+    left = 236
+    top = 404
+  end
+  object ZQuery2: TZQuery
+    Connection = dm.ZConnection1
+    SQL.Strings = (
+      'select'
+      '-- Passing --'
+      'cast(sum(g.passing_completions) || ''/'' || sum(g.passing_attempts) as varchar(15)) as "Cmp/Att",'
+      'sum(g.passing_completions)/cast(nullif(sum(g.passing_attempts),0) as decimal(5,2))*100 as "Pct.",'
+      'sum(g.passing_yards) as "Pa.Yds.",'
+      'sum(g.passing_touchdowns) as "Pa.TD.",'
+      'sum(g.passing_interceptions) as "Pa.Int",'
+      'avg(g.passing_rating) as "Rate",'
+      'sum(g.passing_sacks) as "Sacked",'
+      '-- Rushing --'
+      'sum(g.rushing_attempts) as "Rush",'
+      'sum(g.rushing_yards) as "Ru.Yds.",'
+      'sum(g.rushing_yards)/cast(nullif(sum(g.rushing_attempts),0) as decimal(5,2)) as "Ru.Avg.",'
+      'sum(g.rushing_touchdowns) as "Ru.TD.",'
+      '-- Receiving --'
+      'sum(g.receiving_targets) as "Tgt.",'
+      'sum(g.receiving_receptions) as "Rec.",'
+      'sum(g.receiving_yards) as "Re.Yds.",'
+      'sum(g.receiving_yards)/cast(nullif(sum(g.receiving_receptions),0) as decimal(5,2)) as "Re.Avg.",'
+      'sum(g.receiving_touchdowns) as "Re.TD.",'
+      '-- Defense --'
+      'sum(g.defense_tackles)+sum(g.defense_tackle_assists) as "Comb.",'
+      'cast(sum(g.defense_tackles) || ''/'' || sum(g.defense_tackle_assists) as varchar(15)) as "T/A",'
+      'sum(g.defense_sacks) as "Sacks",'
+      'sum(defense_interceptions) as "Int",'
+      'sum(g.defense_interception_yards) as "Yds.",'
+      'sum(g.defense_interception_touchdowns) as "Int.TD",'
+      'sum(g.defense_safeties) as "Sft.",'
+      'sum(g.fumbles_forced) as "FF",'
+      'sum(g.fumbles_rec) as "FR",'
+      '-- Returning --'
+      'sum(g.kick_return_attempts) as "KR.",'
+      'sum(g.kick_return_yards) as "KR.Yds.",'
+      'sum(g.kick_return_yards)/cast(nullif(sum(g.kick_return_attempts),0) as decimal(5,2)) as "KR.Avg.",'
+      'sum(g.kick_return_touchdowns) as "KR.TD.",'
+      'sum(g.punt_return_attempts) as "PR.",'
+      'sum(g.punt_return_yards) as "PR.Yds.",'
+      'sum(g.punt_return_yards)/cast(nullif(sum(g.punt_return_attempts),0) as decimal(5,2)) as "PR.Avg.",'
+      'sum(g.punt_return_touchdowns) as "PR.TD.",'
+      '-- Kicking --'
+      'cast(sum(g.field_goal_makes) || ''/'' ||sum(g.field_goal_attempts) as varchar(15)) as "FGM/FGA",'
+      'sum(g.field_goal_makes)/cast(nullif(sum(g.field_goal_attempts),0) as decimal(5,2))*100 as "FG.Pct.",'
+      'cast(sum(g.point_after_makes) || ''/'' ||sum(g.point_after_attempts) as varchar(15)) as "XPM/XPA",'
+      'sum(g.point_after_makes)/cast(nullif(sum(g.point_after_attempts),0) as decimal(5,2))*100 as "XP.Pct.",'
+      '-- Punting --'
+      'sum(g.punting_attempts) as "Punts",'
+      'sum(g.punting_yards) as "Pu.Yds",'
+      'sum(g.punting_yards)/cast(nullif(sum(g.punting_attempts),0) as decimal(5,2)) as "Pu.Avg.",'
+      'sum(g.punting_blocked) as "Blocked",'
+      '-- Fumbles --'
+      'sum(g.fumbles) as "Fmb.",'
+      'sum(g.fumbles_lost) as "Lost"'
+      'from games g'
+      'where g.team =:team'
+      'and g."year" =:year'
+      'group by g."year", g.team '
+      'order by '
+      'sum(g.passing_yards) desc, '
+      'sum(g.passing_attempts) desc,'
+      'sum(g.rushing_yards) desc, '
+      'sum(g.rushing_attempts) desc,'
+      'sum(g.receiving_yards) desc, '
+      'sum(g.receiving_receptions) desc, '
+      'sum(g.receiving_targets) desc,'
+      'sum(g.defense_tackles) desc, '
+      'sum(g.defense_tackle_assists) desc,'
+      'sum(g.field_goal_attempts) desc,'
+      'sum(g.point_after_attempts) desc,'
+      'sum(g.punting_yards) desc,'
+      'sum(g.kick_return_yards) desc, '
+      'sum(g.kick_return_attempts) desc,'
+      'sum(g.punt_return_yards), '
+      'sum(g.punt_return_attempts) desc'
+    )
+    Params = <    
+      item
+        DataType = ftUnknown
+        Name = 'team'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'year'
+        ParamType = ptUnknown
+      end>
+    left = 144
+    top = 464
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'team'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'year'
+        ParamType = ptUnknown
+      end>
+  end
+  object DataSource2: TDataSource
+    DataSet = ZQuery2
+    left = 232
+    top = 464
+  end
+  object qryTeams: TZQuery
+    Connection = dm.ZConnection1
+    SQL.Strings = (
+      'select distinct g.team from games g'
+      ' order by g.team'
+    )
+    Params = <>
+    left = 776
+    top = 8
+  end
+  object qryYears: TZQuery
+    Connection = dm.ZConnection1
+    SQL.Strings = (
+      'select max(g."year") as "year" from games g'
+    )
+    Params = <>
+    left = 848
+    top = 8
+  end
+end

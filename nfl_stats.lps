@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Release"/>
+    <Units Count="23">
+      <Unit0>
+        <Filename Value="nfl_stats.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="48" Y="7"/>
+        <UsageCount Value="104"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uplayerinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPlayerInfo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UPlayerInfo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="29" Y="29"/>
+        <UsageCount Value="104"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ustats.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStats"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="89"/>
+        <CursorPos X="11" Y="105"/>
+        <UsageCount Value="104"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ustatdetails.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStatDetails"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ustatdetails"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="46"/>
+        <CursorPos X="45" Y="124"/>
+        <UsageCount Value="90"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ugamedetail.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGameDetail"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UGamedetail"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="34" Y="61"/>
+        <UsageCount Value="88"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="udm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="80"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uplayersearch.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPlayerSearch"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UPlayerSearch"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="65"/>
+        <CursorPos X="47" Y="52"/>
+        <UsageCount Value="79"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="umainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="36"/>
+        <CursorPos X="48" Y="41"/>
+        <UsageCount Value="79"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uplayeragainstteam.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPlayerAgainstTeam"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPlayerAgainstTeam"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="101"/>
+        <CursorPos X="52" Y="113"/>
+        <UsageCount Value="78"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="uteamstatsbyyear.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTeamStatsByYear"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uTeamStatsByYear"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="57" Y="64"/>
+        <UsageCount Value="72"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uclasses.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UClasses"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="124"/>
+        <CursorPos X="40" Y="136"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="uteamschedule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTeamSchedule"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uTeamSchedule"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="45"/>
+        <CursorPos X="41" Y="51"/>
+        <UsageCount Value="52"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="umain.pas"/>
+        <ComponentName Value="frmPlayerSearch"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UMain"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="93"/>
+        <CursorPos Y="107"/>
+        <UsageCount Value="44"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2080"/>
+        <CursorPos X="43" Y="2121"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/unix/classes.pp"/>
+        <UnitName Value="Classes"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZDataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="3" Y="82"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="/usr/lib/lazarus/2.0.6/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="231"/>
+        <CursorPos X="3" Y="241"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="/usr/lib/lazarus/2.0.6/lcl/dbgrids.pas"/>
+        <UnitName Value="DBGrids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="899"/>
+        <CursorPos X="24" Y="908"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="/usr/lib/lazarus/2.0.6/lcl/dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="715"/>
+        <CursorPos X="11" Y="724"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="/usr/lib/lazarus/2.0.6/lcl/stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1214"/>
+        <CursorPos X="3" Y="1224"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="/usr/lib/lazarus/2.0.6/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1980"/>
+        <CursorPos X="38" Y="1892"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="/usr/lib/lazarus/2.0.6/lcl/dbctrls.pp"/>
+        <UnitName Value="DBCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="259"/>
+        <CursorPos X="3" Y="273"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="uchart.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChart"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UChart"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="44" Y="19"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit22>
+    </Units>
+    <JumpHistory Count="19" HistoryIndex="18">
+      <Position1>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="45" Column="62" TopLine="27"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uplayeragainstteam.pas"/>
+        <Caret Line="100" Column="32" TopLine="97"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uplayeragainstteam.pas"/>
+        <Caret Line="102" Column="32" TopLine="99"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="76" Column="28" TopLine="76"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="78" Column="28" TopLine="78"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="54" Column="42" TopLine="38"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uplayeragainstteam.pas"/>
+        <Caret Line="119" Column="32" TopLine="101"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ustatdetails.pas"/>
+        <Caret Line="46" Column="34" TopLine="42"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ustatdetails.pas"/>
+        <Caret Line="49" Column="34" TopLine="45"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ustatdetails.pas"/>
+        <Caret Line="124" Column="45" TopLine="46"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uchart.pas"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="100" Column="42" TopLine="98"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uchart.pas"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="98" Column="21" TopLine="90"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="100" Column="46" TopLine="90"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uchart.pas"/>
+        <Caret Line="29" TopLine="3"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="102" Column="85" TopLine="86"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="108" Column="41" TopLine="87"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="102" Column="38" TopLine="88"/>
+      </Position19>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

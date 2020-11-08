@@ -1,0 +1,24 @@
+object dm: Tdm
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 613
+  VerticalOffset = 262
+  Width = 150
+  PPI = 96
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=ON'
+    )
+    Connected = True
+    HostName = 'localhost'
+    Port = 5432
+    Database = 'nfl_stats'
+    User = 'postgres'
+    Password = '1234'
+    Protocol = 'postgresql'
+    left = 24
+    top = 24
+  end
+end

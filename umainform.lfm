@@ -1,0 +1,40 @@
+object frmMainForm: TfrmMainForm
+  Left = 20
+  Height = 208
+  Top = 38
+  Width = 434
+  Caption = 'NFL Stats - All Data and Rights to pro-football-reference.com'
+  ClientHeight = 208
+  ClientWidth = 434
+  LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 8
+    Height = 64
+    Top = 8
+    Width = 416
+    Caption = 'Player Stats'
+    OnClick = Button1Click
+    OnKeyDown = Button1KeyDown
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 64
+    Top = 72
+    Width = 416
+    Caption = 'Team Stats'
+    OnClick = Button1Click
+    OnKeyDown = Button1KeyDown
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 8
+    Height = 64
+    Top = 136
+    Width = 416
+    Caption = 'Season Stats'
+    OnClick = Button1Click
+    OnKeyDown = Button1KeyDown
+    TabOrder = 2
+  end
+end
