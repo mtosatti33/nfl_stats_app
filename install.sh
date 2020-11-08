@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 
-sudo ln -s $(pwd)/nfl_stats /usr/bin/nfl-stats
+if [ -e $(pwd)/nfl_stats ]; then
+    sudo ln -s $(pwd)/nfl_stats /usr/bin/nfl-stats
+else
+    echo "Binary not found"
+    exit 1
+fi
