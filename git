@@ -1,0 +1,74 @@
+#!/usr/bin/env bash
+
+menu (){
+	echo "---------GIT INTEGRATION WITH LAZARUS-------------------
+		1) Open Lazarus Project
+		2) View Status
+		3) Add Modified Changes
+		4) Commit
+		5) Push Project
+		6) Pull Project
+		7) Edit .gitignore
+		0) Exit
+--------------------------------------------------------"
+}
+
+press_any_key(){
+	echo ""
+	read -p "Press any Key for return the main menu"
+}
+
+while :; do
+	clear
+	
+	menu
+	read -p "Option: " option
+
+	case $option in
+	#Open Lazarus Project
+	1)
+		lazarus-ide nfl_stats.lpi;;
+		
+	#View Status
+	2)
+		git status
+		
+		press_any_key;;
+		
+	#Add Modified Changes
+	3)
+		git add .
+		
+		press_any_key;;
+		
+	#Commit
+	4)
+		git commit -m "Update"
+		
+		press_any_key;;
+		
+	#Push Project
+	5)
+		git push origin main
+		
+		press_any_key;;
+		
+	#Pull Project
+	6)
+		git pull origin main
+		
+		press_any_key;;
+		
+	#Edit .gitignore
+	7)
+		vim .gitignore
+		
+		press_any_key;;
+		
+	#Exit Script
+	0)
+		exit 0;;
+		
+	esac;
+
+done;
