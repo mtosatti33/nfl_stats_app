@@ -30,10 +30,8 @@
         <ComponentName Value="frmStats"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="89"/>
-        <CursorPos X="11" Y="105"/>
+        <CursorPos X="50" Y="58"/>
         <UsageCount Value="104"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -91,7 +89,7 @@
         <ComponentName Value="frmMainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="36"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos X="48" Y="41"/>
         <UsageCount Value="79"/>
         <Loaded Value="True"/>
@@ -104,8 +102,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPlayerAgainstTeam"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="101"/>
-        <CursorPos X="52" Y="113"/>
+        <TopLine Value="24"/>
+        <CursorPos X="61" Y="107"/>
         <UsageCount Value="78"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -144,6 +142,19 @@
         <UsageCount Value="52"/>
       </Unit11>
       <Unit12>
+        <Filename Value="uchart.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChart"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UChart"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="44" Y="19"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit12>
+      <Unit13>
         <Filename Value="umain.pas"/>
         <ComponentName Value="frmPlayerSearch"/>
         <HasResources Value="True"/>
@@ -153,87 +164,75 @@
         <TopLine Value="93"/>
         <CursorPos Y="107"/>
         <UsageCount Value="44"/>
-      </Unit12>
-      <Unit13>
+      </Unit13>
+      <Unit14>
         <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/classes/classesh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2080"/>
         <CursorPos X="43" Y="2121"/>
         <UsageCount Value="10"/>
-      </Unit13>
-      <Unit14>
+      </Unit14>
+      <Unit15>
         <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/unix/classes.pp"/>
         <UnitName Value="Classes"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="8"/>
-      </Unit14>
-      <Unit15>
+      </Unit15>
+      <Unit16>
         <Filename Value="../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZDataset.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="73"/>
         <CursorPos X="3" Y="82"/>
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit15>
-      <Unit16>
+      </Unit16>
+      <Unit17>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/graphics.pp"/>
         <UnitName Value="Graphics"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="231"/>
         <CursorPos X="3" Y="241"/>
         <UsageCount Value="10"/>
-      </Unit16>
-      <Unit17>
+      </Unit17>
+      <Unit18>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/dbgrids.pas"/>
         <UnitName Value="DBGrids"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="899"/>
         <CursorPos X="24" Y="908"/>
         <UsageCount Value="10"/>
-      </Unit17>
-      <Unit18>
+      </Unit18>
+      <Unit19>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/dialogs.pp"/>
         <UnitName Value="Dialogs"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="715"/>
         <CursorPos X="11" Y="724"/>
         <UsageCount Value="10"/>
-      </Unit18>
-      <Unit19>
+      </Unit19>
+      <Unit20>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/stdctrls.pp"/>
         <UnitName Value="StdCtrls"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1214"/>
         <CursorPos X="3" Y="1224"/>
         <UsageCount Value="10"/>
-      </Unit19>
-      <Unit20>
+      </Unit20>
+      <Unit21>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/forms.pp"/>
         <UnitName Value="Forms"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1980"/>
         <CursorPos X="38" Y="1892"/>
         <UsageCount Value="10"/>
-      </Unit20>
-      <Unit21>
+      </Unit21>
+      <Unit22>
         <Filename Value="/usr/lib/lazarus/2.0.6/lcl/dbctrls.pp"/>
         <UnitName Value="DBCtrls"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="259"/>
         <CursorPos X="3" Y="273"/>
         <UsageCount Value="10"/>
-      </Unit21>
-      <Unit22>
-        <Filename Value="uchart.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="frmChart"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="UChart"/>
-        <EditorIndex Value="3"/>
-        <CursorPos X="44" Y="19"/>
-        <UsageCount Value="23"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit22>
     </Units>
     <JumpHistory Count="19" HistoryIndex="18">
