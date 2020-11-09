@@ -71,6 +71,10 @@ while :; do
 
     q)
         exit 0;;
+
+    *)
+        echo "Invalid Option"
+        sleep 2;;
 		
 	esac;
 
