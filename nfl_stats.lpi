@@ -198,6 +198,7 @@
         <Filename Value="uchart.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmChart"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UChart"/>
       </Unit12>

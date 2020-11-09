@@ -36,7 +36,7 @@ object frmChart: TfrmChart
     end
   end
   object DbChartSource1: TDbChartSource
-    left = 392
+    left = 416
     top = 24
   end
 end
