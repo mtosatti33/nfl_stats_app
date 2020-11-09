@@ -30,9 +30,10 @@
         <ComponentName Value="frmStats"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <TopLine Value="91"/>
-        <CursorPos X="57" Y="93"/>
+        <CursorPos X="8" Y="100"/>
         <UsageCount Value="108"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -148,7 +149,6 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UChart"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <CursorPos X="59" Y="10"/>
         <UsageCount Value="27"/>

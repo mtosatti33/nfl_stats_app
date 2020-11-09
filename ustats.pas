@@ -97,6 +97,7 @@ begin
 
   with frmChart do
   begin
+
        DbChartSource1.DataSource := self.DataSource1;
        DbChartSource1.FieldX:= 'Year';
        DbChartSource1.FieldY:= 'Rate';
