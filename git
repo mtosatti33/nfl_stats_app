@@ -51,7 +51,14 @@ while :; do
 		
 	#Commit
 	4)
-		git commit -m "Update"
+		read "Do you prefer a customized message[Y/N]? " answer
+		case $answer in
+		'y'|'Y')
+ 			read -p "Message: " message
+			git commit -m $message;;
+		*)
+			git commit -m "Update";;
+		esac
 		
 		press_any_key;;
 		
