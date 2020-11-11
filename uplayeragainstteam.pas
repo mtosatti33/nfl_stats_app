@@ -5,7 +5,7 @@ unit uPlayerAgainstTeam;
 interface
 
 uses
-  Classes, SysUtils, db, Forms, Controls, Graphics, Dialogs, DBGrids, DBCtrls,
+  Classes, SysUtils, DB, Forms, Controls, Graphics, Dialogs, DBGrids, DBCtrls,
   StdCtrls, UGamedetail, UClasses, ZDataset;
 
 type
@@ -40,19 +40,17 @@ type
     ZQuery2: TZQuery;
     ZQuery3: TZQuery;
     procedure Button1Click(Sender: TObject);
-    procedure Button1KeyDown(Sender: TObject; var Key: Word; Shift: TShiftState
-      );
+    procedure Button1KeyDown(Sender: TObject; var Key: word; Shift: TShiftState);
     procedure DBGrid1DblClick(Sender: TObject);
-    procedure DBGrid1KeyDown(Sender: TObject; var Key: Word; Shift: TShiftState
-      );
-    procedure DBGrid1KeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
-    procedure DBGrid2KeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure DBGrid1KeyDown(Sender: TObject; var Key: word; Shift: TShiftState);
+    procedure DBGrid1KeyUp(Sender: TObject; var Key: word; Shift: TShiftState);
+    procedure DBGrid2KeyUp(Sender: TObject; var Key: word; Shift: TShiftState);
     procedure FormShow(Sender: TObject);
   private
 
   public
-    player_id:integer;
-    opponent:string;
+    player_id: integer;
+    opponent: string;
   end;
 
 var
@@ -69,33 +67,35 @@ var
   GridTools: TGridTools;
 begin
   ZQuery1.Close;
-  ZQuery1.ParamByName('player_id').AsInteger:=player_id;
-  ZQuery1.ParamByName('opponent').AsString:=opponent;
+  ZQuery1.ParamByName('player_id').AsInteger := player_id;
+  ZQuery1.ParamByName('opponent').AsString := opponent;
   ZQuery1.Open;
 
   ZQuery2.Close;
-  ZQuery2.ParamByName('player_id').AsInteger:=player_id;
-  ZQuery2.ParamByName('opponent').AsString:=opponent;
+  ZQuery2.ParamByName('player_id').AsInteger := player_id;
+  ZQuery2.ParamByName('opponent').AsString := opponent;
   ZQuery2.Open;
 
   ZQuery3.Close;
-  ZQuery3.ParamByName('player_id').AsInteger:=player_id;
-  ZQuery3.ParamByName('opponent').AsString:=opponent;
+  ZQuery3.ParamByName('player_id').AsInteger := player_id;
+  ZQuery3.ParamByName('opponent').AsString := opponent;
   ZQuery3.Open;
 
   GridTools := TGridTools.Create;
   try
-    GridTools.Initialize(self,ZQuery3);
+    GridTools.Initialize(self, ZQuery3);
   finally
-   GridTools.Free;
+    GridTools.Free;
   end;
 end;
 
-procedure TfrmPlayerAgainstTeam.DBGrid1KeyDown(Sender: TObject; var Key: Word;
-  Shift: TShiftState);
+procedure TfrmPlayerAgainstTeam.DBGrid1KeyDown(Sender: TObject;
+  var Key: word; Shift: TShiftState);
 begin
-  if (Key = 27) or (Key = 81) then Close;
-  if Key = 13 then DBGrid1DblClick(nil);
+  if (Key = 27) or (Key = 81) then
+    Close;
+  if Key = 13 then
+    DBGrid1DblClick(nil);
 end;
 
 procedure TfrmPlayerAgainstTeam.DBGrid1DblClick(Sender: TObject);
@@ -103,7 +103,7 @@ begin
   if self.ZQuery2.RecordCount <> 0 then
   begin
     if frmGameDetail = nil then
-       frmGameDetail := TfrmGameDetail.Create(self);
+      frmGameDetail := TfrmGameDetail.Create(self);
 
     with frmGameDetail do
     begin
@@ -119,23 +119,23 @@ begin
   ShowMessage('Comming Soon...');
 end;
 
-procedure TfrmPlayerAgainstTeam.Button1KeyDown(Sender: TObject; var Key: Word;
-  Shift: TShiftState);
-begin   
-  if (Key = 27) or (Key = 81) then Close;
+procedure TfrmPlayerAgainstTeam.Button1KeyDown(Sender: TObject;
+  var Key: word; Shift: TShiftState);
+begin
+  if (Key = 27) or (Key = 81) then
+    Close;
 end;
 
-procedure TfrmPlayerAgainstTeam.DBGrid1KeyUp(Sender: TObject; var Key: Word;
-  Shift: TShiftState);
+procedure TfrmPlayerAgainstTeam.DBGrid1KeyUp(Sender: TObject;
+  var Key: word; Shift: TShiftState);
 begin
-  DBGrid2.SelectedIndex:=DBGrid1.SelectedIndex;
+  DBGrid2.SelectedIndex := DBGrid1.SelectedIndex;
 end;
 
-procedure TfrmPlayerAgainstTeam.DBGrid2KeyUp(Sender: TObject; var Key: Word;
-  Shift: TShiftState);
+procedure TfrmPlayerAgainstTeam.DBGrid2KeyUp(Sender: TObject;
+  var Key: word; Shift: TShiftState);
 begin
-  DBGrid1.SelectedIndex:=DBGrid2.SelectedIndex;
+  DBGrid1.SelectedIndex := DBGrid2.SelectedIndex;
 end;
 
 end.
-

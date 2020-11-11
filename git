@@ -4,7 +4,7 @@ menu (){
 	echo "---------GIT INTEGRATION WITH LAZARUS-------------------
 		1) Open Lazarus Project
 		2) View Status
-		3) Add Modified Changes
+		3) Add Modified Files
 		4) Commit
 		5) Push Project
 		6) Pull Project
@@ -35,7 +35,7 @@ while :; do
 		
 		press_any_key;;
 		
-	#Add Modified Changes
+	#Add Modified Files
 	3)
 		git add .
 		

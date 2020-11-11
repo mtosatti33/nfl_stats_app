@@ -1,7 +1,7 @@
 object frmStatDetails: TfrmStatDetails
-  Left = 435
+  Left = 436
   Height = 503
-  Top = 109
+  Top = 136
   Width = 914
   Caption = 'Details'
   ClientHeight = 503

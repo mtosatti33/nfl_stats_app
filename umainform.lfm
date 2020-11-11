@@ -1,7 +1,7 @@
 object frmMainForm: TfrmMainForm
-  Left = 20
+  Left = 21
   Height = 208
-  Top = 38
+  Top = 65
   Width = 434
   Caption = 'NFL Stats - All Data and Rights to pro-football-reference.com'
   ClientHeight = 208
