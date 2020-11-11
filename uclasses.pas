@@ -71,14 +71,14 @@ unit UClasses;
 
     In future:
     - Pass Yards per completion
-    - Pass Yards per Game
+    - Pass Yards per game/season
     - Interception per attempt
     - TD-Int margin
-    - Times Sacked per game
-    - Rush Yards per game
-    - Receiving Yards per game
-    - Combined solo/assist per game
-    - Sacks per game
+    - Times Sacked per game/season
+    - Rush Yards per game/season
+    - Receiving Yards per game/season
+    - Combined solo/assist per game/season
+    - Sacks per game/season
 }
 {$mode objfpc}{$H+}
 

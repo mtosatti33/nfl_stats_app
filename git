@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+LAZARUS_PROJECT=nfl_stats.lpi
+
 menu (){
 	cat << EOF 
 "---------GIT INTEGRATION WITH LAZARUS-------------------
@@ -35,7 +37,7 @@ while :; do
 	case $option in
 	#Open Lazarus Project
 	1)
-		lazarus-ide nfl_stats.lpi;;
+		lazarus-ide $LAZARUS_PROJECT;;
 		
 	#View Status
 	2)
@@ -51,7 +53,8 @@ while :; do
 		
 	#Commit
 	4)
-		read -p "Do you prefer a customized message[Y/N]? " answer
+		read -p "Do you prefer a customized message[Y if Yes/Enter if No]? " answer
+
 		case $answer in
 		'y'|'Y')
  			read -p "Message: " message
@@ -107,15 +110,12 @@ while :; do
 		press_any_key;;
 
     	#Exit Script
-	0)
+	0 | q)
 		exit 0;;
 
-    q)
-        exit 0;;
-
-    *)
-        echo "Invalid Option"
-        sleep 2;;
+    	*)
+        	echo "Invalid Option"
+        	sleep 2;;
 		
 	esac;
 
