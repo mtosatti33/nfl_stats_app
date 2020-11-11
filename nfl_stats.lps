@@ -3,26 +3,14 @@
   <ProjectSession>
     <Version Value="11"/>
     <BuildModes Active="Release"/>
-    <Units Count="24">
+    <Units Count="23">
       <Unit0>
         <Filename Value="nfl_stats.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="project1"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="48" Y="7"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <UsageCount Value="109"/>
-=======
-        <UsageCount Value="110"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="110"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="110"/>
->>>>>>> Stashed changes
+        <UsageCount Value="112"/>
       </Unit0>
       <Unit1>
         <Filename Value="uplayerinfo.pas"/>
@@ -34,19 +22,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="20"/>
         <CursorPos X="29" Y="29"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <UsageCount Value="109"/>
-=======
-        <UsageCount Value="110"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="110"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="110"/>
->>>>>>> Stashed changes
+        <UsageCount Value="112"/>
       </Unit1>
       <Unit2>
         <Filename Value="ustats.pas"/>
@@ -54,29 +30,12 @@
         <ComponentName Value="frmStats"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-        <EditorIndex Value="-1"/>
-        <TopLine Value="44"/>
-        <CursorPos X="3" Y="56"/>
-        <UsageCount Value="109"/>
-=======
-        <IsVisibleTab Value="True"/>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         <EditorIndex Value="1"/>
         <TopLine Value="91"/>
         <CursorPos X="8" Y="100"/>
-        <UsageCount Value="110"/>
+        <UsageCount Value="112"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
->>>>>>> 8e80e302dcd59c8312ed35bc151140e36bdc135d
       </Unit2>
       <Unit3>
         <Filename Value="ustatdetails.pas"/>
@@ -86,27 +45,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Ustatdetails"/>
         <EditorIndex Value="4"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <TopLine Value="110"/>
-        <CursorPos X="5" Y="134"/>
-        <UsageCount Value="95"/>
-=======
         <TopLine Value="91"/>
         <CursorPos X="59" Y="108"/>
-        <UsageCount Value="96"/>
->>>>>>> Stashed changes
-=======
-        <TopLine Value="91"/>
-        <CursorPos X="59" Y="108"/>
-        <UsageCount Value="96"/>
->>>>>>> Stashed changes
-=======
-        <TopLine Value="91"/>
-        <CursorPos X="59" Y="108"/>
-        <UsageCount Value="96"/>
->>>>>>> Stashed changes
+        <UsageCount Value="98"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
@@ -120,19 +61,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="46"/>
         <CursorPos X="34" Y="61"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <UsageCount Value="93"/>
-=======
-        <UsageCount Value="94"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="94"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="94"/>
->>>>>>> Stashed changes
+        <UsageCount Value="96"/>
       </Unit4>
       <Unit5>
         <Filename Value="udm.pas"/>
@@ -141,19 +70,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <EditorIndex Value="-1"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <UsageCount Value="85"/>
-=======
-        <UsageCount Value="86"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="86"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="86"/>
->>>>>>> Stashed changes
+        <UsageCount Value="88"/>
       </Unit5>
       <Unit6>
         <Filename Value="uplayersearch.pas"/>
@@ -165,19 +82,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="65"/>
         <CursorPos X="47" Y="52"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <UsageCount Value="84"/>
-=======
-        <UsageCount Value="85"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="85"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="85"/>
->>>>>>> Stashed changes
+        <UsageCount Value="87"/>
       </Unit6>
       <Unit7>
         <Filename Value="umainform.pas"/>
@@ -187,19 +92,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="7"/>
         <CursorPos X="48" Y="41"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <UsageCount Value="84"/>
-=======
-        <UsageCount Value="85"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="85"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="85"/>
->>>>>>> Stashed changes
+        <UsageCount Value="87"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit7>
@@ -210,24 +103,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPlayerAgainstTeam"/>
-<<<<<<< Updated upstream
-        <EditorIndex Value="2"/>
-        <CursorPos X="3" Y="8"/>
-        <UsageCount Value="83"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
-=======
         <EditorIndex Value="-1"/>
         <TopLine Value="89"/>
         <CursorPos X="61" Y="107"/>
-        <UsageCount Value="84"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+        <UsageCount Value="86"/>
       </Unit8>
       <Unit9>
         <Filename Value="uteamstatsbyyear.pas"/>
@@ -239,49 +118,18 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="134"/>
         <CursorPos X="3" Y="136"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <UsageCount Value="77"/>
-=======
-        <UsageCount Value="78"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="78"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="78"/>
->>>>>>> Stashed changes
+        <UsageCount Value="80"/>
       </Unit9>
       <Unit10>
         <Filename Value="uclasses.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="UClasses"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <EditorIndex Value="-1"/>
-        <TopLine Value="124"/>
-        <CursorPos X="40" Y="136"/>
-        <UsageCount Value="59"/>
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="289"/>
-        <CursorPos Y="335"/>
-        <UsageCount Value="60"/>
+        <TopLine Value="61"/>
+        <CursorPos X="20" Y="67"/>
+        <UsageCount Value="62"/>
         <Loaded Value="True"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       </Unit10>
       <Unit11>
         <Filename Value="uteamschedule.pas"/>
@@ -293,19 +141,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="45"/>
         <CursorPos X="41" Y="51"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <UsageCount Value="57"/>
-=======
-        <UsageCount Value="58"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="58"/>
->>>>>>> Stashed changes
-=======
-        <UsageCount Value="58"/>
->>>>>>> Stashed changes
+        <UsageCount Value="60"/>
       </Unit11>
       <Unit12>
         <Filename Value="uchart.pas"/>
@@ -314,33 +150,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UChart"/>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-        <EditorIndex Value="1"/>
-        <CursorPos X="33" Y="9"/>
-        <UsageCount Value="28"/>
-=======
-        <EditorIndex Value="2"/>
-        <CursorPos X="59" Y="10"/>
-        <UsageCount Value="27"/>
->>>>>>> 8e80e302dcd59c8312ed35bc151140e36bdc135d
-=======
         <EditorIndex Value="3"/>
         <CursorPos X="59" Y="10"/>
-        <UsageCount Value="29"/>
->>>>>>> Stashed changes
-=======
-        <EditorIndex Value="3"/>
-        <CursorPos X="59" Y="10"/>
-        <UsageCount Value="29"/>
->>>>>>> Stashed changes
-=======
-        <EditorIndex Value="3"/>
-        <CursorPos X="59" Y="10"/>
-        <UsageCount Value="29"/>
->>>>>>> Stashed changes
+        <UsageCount Value="31"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit12>
@@ -365,10 +177,8 @@
       <Unit15>
         <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/unix/classes.pp"/>
         <UnitName Value="Classes"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="3"/>
-        <UsageCount Value="10"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
       </Unit15>
       <Unit16>
         <Filename Value="../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZDataset.pas"/>
@@ -426,73 +236,98 @@
         <CursorPos X="3" Y="273"/>
         <UsageCount Value="10"/>
       </Unit22>
-      <Unit23>
-        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/objpas.pp"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="24"/>
-        <CursorPos X="8" Y="35"/>
-        <UsageCount Value="10"/>
-      </Unit23>
     </Units>
-    <JumpHistory Count="15" HistoryIndex="14">
+    <JumpHistory Count="23" HistoryIndex="22">
       <Position1>
         <Filename Value="umainform.pas"/>
         <Caret Line="45" Column="62" TopLine="27"/>
       </Position1>
       <Position2>
-        <Filename Value="ustatdetails.pas"/>
-        <Caret Line="46" Column="34" TopLine="42"/>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="76" Column="28" TopLine="76"/>
       </Position2>
       <Position3>
-        <Filename Value="ustatdetails.pas"/>
-        <Caret Line="49" Column="34" TopLine="45"/>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="78" Column="28" TopLine="78"/>
       </Position3>
       <Position4>
-        <Filename Value="ustatdetails.pas"/>
-        <Caret Line="124" Column="45" TopLine="46"/>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="54" Column="42" TopLine="38"/>
       </Position4>
       <Position5>
-        <Filename Value="uchart.pas"/>
+        <Filename Value="ustatdetails.pas"/>
+        <Caret Line="46" Column="34" TopLine="42"/>
       </Position5>
       <Position6>
-        <Filename Value="uchart.pas"/>
+        <Filename Value="ustatdetails.pas"/>
+        <Caret Line="49" Column="34" TopLine="45"/>
       </Position6>
       <Position7>
-        <Filename Value="uchart.pas"/>
-        <Caret Line="29" TopLine="3"/>
+        <Filename Value="ustatdetails.pas"/>
+        <Caret Line="124" Column="45" TopLine="46"/>
       </Position7>
       <Position8>
         <Filename Value="uchart.pas"/>
-        <Caret Line="5" Column="67"/>
       </Position8>
       <Position9>
-        <Filename Value="uchart.pas"/>
-        <Caret Line="9" Column="33"/>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="100" Column="42" TopLine="98"/>
       </Position9>
       <Position10>
-        <Filename Value="uplayeragainstteam.pas"/>
-        <Caret Line="54" Column="65" TopLine="36"/>
+        <Filename Value="uchart.pas"/>
       </Position10>
       <Position11>
-        <Filename Value="uplayeragainstteam.pas"/>
-        <Caret Line="97" Column="3" TopLine="43"/>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="98" Column="21" TopLine="90"/>
       </Position11>
       <Position12>
-        <Filename Value="uplayeragainstteam.pas"/>
-        <Caret Line="55" Column="48" TopLine="44"/>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="100" Column="46" TopLine="90"/>
       </Position12>
       <Position13>
-        <Filename Value="uplayeragainstteam.pas"/>
-        <Caret Line="54" Column="67" TopLine="45"/>
+        <Filename Value="uchart.pas"/>
+        <Caret Line="29" TopLine="3"/>
       </Position13>
       <Position14>
-        <Filename Value="uplayeragainstteam.pas"/>
-        <Caret Line="49" Column="32" TopLine="38"/>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="102" Column="85" TopLine="86"/>
       </Position14>
       <Position15>
-        <Filename Value="uplayeragainstteam.pas"/>
-        <Caret Line="8" Column="3"/>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="108" Column="41" TopLine="87"/>
       </Position15>
+      <Position16>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="102" Column="38" TopLine="88"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uchart.pas"/>
+        <Caret Line="5" Column="67"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="103" Column="62" TopLine="95"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="102" Column="64" TopLine="89"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="100" Column="52" TopLine="89"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uchart.pas"/>
+        <Caret Line="9" Column="33"/>
+      </Position21>
+      <Position22>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="106" Column="55" TopLine="95"/>
+      </Position22>
+      <Position23>
+        <Filename Value="ustats.pas"/>
+        <Caret Line="102" Column="59" TopLine="91"/>
+      </Position23>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

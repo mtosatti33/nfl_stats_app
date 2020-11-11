@@ -14,6 +14,7 @@ menu (){
 		8)      Stash
 		9)      Stash Restore
 		10)     Stash List
+		11)	Stash Drop
 		0, q)   Exit
 		
 --------------------------------------------------------" 
@@ -72,26 +73,33 @@ while :; do
 		
 		press_any_key;;
 
-    #Stash
+    	#Stash
 	8)
 		git stash
 		
 		press_any_key;;
 
-    #Stash Restore
+    	#Stash Restore
 	9)
 		read -p "Choose the ID: " stash_id
 		git stash apply stash@{$stash_id}
 		
 		press_any_key;;
 
-    #Stash List
+    	#Stash List
 	10)
 		git stash list
 		
 		press_any_key;;
 
-    #Exit Script
+    	#Stash Drop
+	11)
+		read -p "Choose the ID: " stash_id
+		git stash drop stash@{$stash_id}
+
+		press_any_key;;
+
+    	#Exit Script
 	0)
 		exit 0;;
 
