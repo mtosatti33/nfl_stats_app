@@ -81,7 +81,7 @@ while :; do
     #Stash Restore
 	9)
 		read -p "Choose the ID: " stash_id
-		git stash apply @{$stash_id}
+		git stash apply stash@{$stash_id}
 		
 		press_any_key;;
 
