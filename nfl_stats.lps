@@ -11,7 +11,11 @@
         <EditorIndex Value="-1"/>
         <CursorPos X="48" Y="7"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <UsageCount Value="109"/>
+=======
+        <UsageCount Value="110"/>
+>>>>>>> Stashed changes
 =======
         <UsageCount Value="110"/>
 >>>>>>> Stashed changes
@@ -27,7 +31,11 @@
         <TopLine Value="20"/>
         <CursorPos X="29" Y="29"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <UsageCount Value="109"/>
+=======
+        <UsageCount Value="110"/>
+>>>>>>> Stashed changes
 =======
         <UsageCount Value="110"/>
 >>>>>>> Stashed changes
@@ -39,6 +47,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         <EditorIndex Value="-1"/>
         <TopLine Value="44"/>
@@ -46,6 +55,8 @@
         <UsageCount Value="109"/>
 =======
         <IsVisibleTab Value="True"/>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <EditorIndex Value="1"/>
@@ -65,9 +76,15 @@
         <UnitName Value="Ustatdetails"/>
         <EditorIndex Value="4"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <TopLine Value="110"/>
         <CursorPos X="5" Y="134"/>
         <UsageCount Value="95"/>
+=======
+        <TopLine Value="91"/>
+        <CursorPos X="59" Y="108"/>
+        <UsageCount Value="96"/>
+>>>>>>> Stashed changes
 =======
         <TopLine Value="91"/>
         <CursorPos X="59" Y="108"/>
@@ -87,7 +104,11 @@
         <TopLine Value="46"/>
         <CursorPos X="34" Y="61"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <UsageCount Value="93"/>
+=======
+        <UsageCount Value="94"/>
+>>>>>>> Stashed changes
 =======
         <UsageCount Value="94"/>
 >>>>>>> Stashed changes
@@ -100,7 +121,11 @@
         <ResourceBaseClass Value="DataModule"/>
         <EditorIndex Value="-1"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <UsageCount Value="85"/>
+=======
+        <UsageCount Value="86"/>
+>>>>>>> Stashed changes
 =======
         <UsageCount Value="86"/>
 >>>>>>> Stashed changes
@@ -116,7 +141,11 @@
         <TopLine Value="65"/>
         <CursorPos X="47" Y="52"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <UsageCount Value="84"/>
+=======
+        <UsageCount Value="85"/>
+>>>>>>> Stashed changes
 =======
         <UsageCount Value="85"/>
 >>>>>>> Stashed changes
@@ -130,7 +159,11 @@
         <TopLine Value="7"/>
         <CursorPos X="48" Y="41"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <UsageCount Value="84"/>
+=======
+        <UsageCount Value="85"/>
+>>>>>>> Stashed changes
 =======
         <UsageCount Value="85"/>
 >>>>>>> Stashed changes
@@ -155,6 +188,9 @@
         <TopLine Value="89"/>
         <CursorPos X="61" Y="107"/>
         <UsageCount Value="84"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       </Unit8>
       <Unit9>
@@ -168,7 +204,11 @@
         <TopLine Value="134"/>
         <CursorPos X="3" Y="136"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <UsageCount Value="77"/>
+=======
+        <UsageCount Value="78"/>
+>>>>>>> Stashed changes
 =======
         <UsageCount Value="78"/>
 >>>>>>> Stashed changes
@@ -178,17 +218,23 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="UClasses"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <EditorIndex Value="-1"/>
         <TopLine Value="124"/>
         <CursorPos X="40" Y="136"/>
         <UsageCount Value="59"/>
 =======
+=======
+>>>>>>> Stashed changes
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="289"/>
         <CursorPos Y="335"/>
         <UsageCount Value="60"/>
         <Loaded Value="True"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       </Unit10>
       <Unit11>
@@ -202,7 +248,11 @@
         <TopLine Value="45"/>
         <CursorPos X="41" Y="51"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <UsageCount Value="57"/>
+=======
+        <UsageCount Value="58"/>
+>>>>>>> Stashed changes
 =======
         <UsageCount Value="58"/>
 >>>>>>> Stashed changes
@@ -215,6 +265,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UChart"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         <EditorIndex Value="1"/>
         <CursorPos X="33" Y="9"/>
@@ -224,6 +275,11 @@
         <CursorPos X="59" Y="10"/>
         <UsageCount Value="27"/>
 >>>>>>> 8e80e302dcd59c8312ed35bc151140e36bdc135d
+=======
+        <EditorIndex Value="3"/>
+        <CursorPos X="59" Y="10"/>
+        <UsageCount Value="29"/>
+>>>>>>> Stashed changes
 =======
         <EditorIndex Value="3"/>
         <CursorPos X="59" Y="10"/>
