@@ -78,6 +78,7 @@ unit UClasses;
     - Rush Yards per game
     - Receiving Yards per game
     - Combined solo/assist per game
+    - Sacks per game
 }
 {$mode objfpc}{$H+}
 

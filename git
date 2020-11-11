@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 menu (){
-	echo "---------GIT INTEGRATION WITH LAZARUS-------------------
+	cat << EOF 
+"---------GIT INTEGRATION WITH LAZARUS-------------------
 	
 		1)      Open Lazarus Project
 		2)      View Status
@@ -10,9 +11,13 @@ menu (){
 		5)      Push Project
 		6)      Pull Project
 		7)      Edit .gitignore
+		8)      Stash
+		9)      Stash Restore
+		10)     Stash List
 		0, q)   Exit
 		
---------------------------------------------------------"
+--------------------------------------------------------" 
+EOF
 }
 
 press_any_key(){
@@ -66,8 +71,26 @@ while :; do
 		vim .gitignore
 		
 		press_any_key;;
+
+    #Stash
+	8)
+		git stash
 		
-	#Exit Script
+		press_any_key;;
+
+    #Stash Restore
+	9)
+		git stash apply
+		
+		press_any_key;;
+
+    #Stash List
+	10)
+		git stash list
+		
+		press_any_key;;
+
+    #Exit Script
 	0)
 		exit 0;;
 

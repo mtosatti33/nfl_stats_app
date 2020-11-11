@@ -2,3 +2,4 @@ backup/
 lib/
 nfl_stats
 sql/data
+.git.swp
