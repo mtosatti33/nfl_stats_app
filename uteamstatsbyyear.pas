@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, DBGrids,
-  ComCtrls, udm, UPlayerInfo, uTeamSchedule, UClasses, db, ZDataset;
+  ComCtrls, udm, UPlayerInfo, uTeamSchedule, UClasses, db, ZDataset, Grids;
 
 type
 

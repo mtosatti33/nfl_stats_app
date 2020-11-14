@@ -498,7 +498,7 @@ object frmTeamStatsByYear: TfrmTeamStatsByYear
       'p."position" as "Pos",'
       'count(g.game_id) as "G",'
       '-- Passing --'
-      'cast(sum(g.passing_completions) || ''/'' || sum(g.passing_attempts) as varchar(15)) as "C/A",'
+      'cast(sum(g.passing_completions) || ''/'' || sum(g.passing_attempts) as varchar(8)) as "C/A",'
       'sum(g.passing_completions)/cast(nullif(sum(g.passing_attempts),0) as decimal(5,2))*100 as "Pa.Pct",'
       'sum(g.passing_yards) as "Pa.Yds",'
       'sum(g.passing_touchdowns) as "Pa.TD",'
