@@ -1,5 +1,5 @@
 object frmTeamStatsByYear: TfrmTeamStatsByYear
-  Left = 41
+  Left = 77
   Height = 674
   Top = 34
   Width = 1319
