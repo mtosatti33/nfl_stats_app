@@ -70,7 +70,9 @@ g.field_goal_attempts+
 g.point_after_attempts+
 g.punting_attempts +
 g.kick_return_attempts + 
-g.punt_return_attempts <> 0
+g.punt_return_attempts +
+g.fumbles_forced +
+g.fumbles_rec <> 0
 order by 
 g.passing_yards desc, g.passing_attempts desc,
 g.rushing_yards desc, g.rushing_attempts desc,

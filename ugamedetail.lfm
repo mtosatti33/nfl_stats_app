@@ -440,6 +440,7 @@ object frmGameDetail: TfrmGameDetail
   end
   object ZQuery1: TZQuery
     Connection = dm.ZConnection1
+    Active = True
     SQL.Strings = (
       '-- INSTRUÇÃO SQL QUE MOSTRA AS ESTATÍSTICAS DO JOGO POR TIME--'
       ''
@@ -513,7 +514,9 @@ object frmGameDetail: TfrmGameDetail
       'g.point_after_attempts+'
       'g.punting_attempts +'
       'g.kick_return_attempts + '
-      'g.punt_return_attempts <> 0'
+      'g.punt_return_attempts +'
+      'g.fumbles_forced +'
+      'g.fumbles_rec <> 0'
       'order by '
       'g.passing_yards desc, g.passing_attempts desc,'
       'g.rushing_yards desc, g.rushing_attempts desc,'
@@ -524,6 +527,8 @@ object frmGameDetail: TfrmGameDetail
       'g.punting_yards desc,'
       'g.kick_return_yards desc, g.kick_return_attempts desc,'
       'g.punt_return_yards, g.punt_return_attempts desc'
+      ''
+      ''
     )
     Params = <    
       item

@@ -10,7 +10,7 @@
         <UnitName Value="project1"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="48" Y="7"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="117"/>
       </Unit0>
       <Unit1>
         <Filename Value="uplayerinfo.pas"/>
@@ -22,7 +22,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="20"/>
         <CursorPos X="29" Y="29"/>
-        <UsageCount Value="116"/>
+        <UsageCount Value="117"/>
       </Unit1>
       <Unit2>
         <Filename Value="ustats.pas"/>
@@ -31,10 +31,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="93"/>
-        <CursorPos X="10" Y="95"/>
-        <UsageCount Value="116"/>
+        <TopLine Value="89"/>
+        <CursorPos X="60" Y="96"/>
+        <UsageCount Value="117"/>
       </Unit2>
       <Unit3>
         <Filename Value="ustatdetails.pas"/>
@@ -46,7 +45,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="91"/>
         <CursorPos X="59" Y="108"/>
-        <UsageCount Value="102"/>
+        <UsageCount Value="103"/>
       </Unit3>
       <Unit4>
         <Filename Value="ugamedetail.pas"/>
@@ -56,9 +55,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UGamedetail"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="46"/>
-        <CursorPos X="34" Y="61"/>
-        <UsageCount Value="100"/>
+        <TopLine Value="94"/>
+        <CursorPos X="3" Y="95"/>
+        <UsageCount Value="101"/>
       </Unit4>
       <Unit5>
         <Filename Value="udm.pas"/>
@@ -66,11 +65,10 @@
         <ComponentName Value="dm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="22"/>
         <CursorPos X="25" Y="29"/>
-        <UsageCount Value="92"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <UsageCount Value="93"/>
       </Unit5>
       <Unit6>
         <Filename Value="uplayersearch.pas"/>
@@ -82,7 +80,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="65"/>
         <CursorPos X="47" Y="52"/>
-        <UsageCount Value="91"/>
+        <UsageCount Value="92"/>
       </Unit6>
       <Unit7>
         <Filename Value="umainform.pas"/>
@@ -93,7 +91,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="7"/>
         <CursorPos X="48" Y="41"/>
-        <UsageCount Value="91"/>
+        <UsageCount Value="92"/>
       </Unit7>
       <Unit8>
         <Filename Value="uplayeragainstteam.pas"/>
@@ -105,7 +103,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="89"/>
         <CursorPos X="61" Y="107"/>
-        <UsageCount Value="90"/>
+        <UsageCount Value="91"/>
       </Unit8>
       <Unit9>
         <Filename Value="uteamstatsbyyear.pas"/>
@@ -114,13 +112,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uTeamStatsByYear"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="74"/>
-        <CursorPos X="44" Y="92"/>
-        <UsageCount Value="84"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="44"/>
+        <CursorPos X="43" Y="58"/>
+        <UsageCount Value="85"/>
       </Unit9>
       <Unit10>
         <Filename Value="uclasses.pas"/>
@@ -129,7 +124,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="61"/>
         <CursorPos X="20" Y="67"/>
-        <UsageCount Value="66"/>
+        <UsageCount Value="67"/>
       </Unit10>
       <Unit11>
         <Filename Value="uteamschedule.pas"/>
@@ -141,7 +136,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="45"/>
         <CursorPos X="41" Y="51"/>
-        <UsageCount Value="64"/>
+        <UsageCount Value="65"/>
       </Unit11>
       <Unit12>
         <Filename Value="uchart.pas"/>
@@ -150,9 +145,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UChart"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="59" Y="10"/>
-        <UsageCount Value="35"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="47"/>
+        <CursorPos X="52" Y="63"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit12>
       <Unit13>
         <Filename Value="umain.pas"/>
@@ -235,124 +233,7 @@
         <UsageCount Value="10"/>
       </Unit22>
     </Units>
-    <JumpHistory Count="29" HistoryIndex="28">
-      <Position1>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="110" TopLine="108"/>
-      </Position1>
-      <Position2>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="109" TopLine="107"/>
-      </Position2>
-      <Position3>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="108" TopLine="106"/>
-      </Position3>
-      <Position4>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="107" TopLine="105"/>
-      </Position4>
-      <Position5>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="106" TopLine="104"/>
-      </Position5>
-      <Position6>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="105" TopLine="103"/>
-      </Position6>
-      <Position7>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="104" TopLine="102"/>
-      </Position7>
-      <Position8>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="103" TopLine="101"/>
-      </Position8>
-      <Position9>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="102" TopLine="100"/>
-      </Position9>
-      <Position10>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="101" TopLine="99"/>
-      </Position10>
-      <Position11>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="100" TopLine="98"/>
-      </Position11>
-      <Position12>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="99" TopLine="97"/>
-      </Position12>
-      <Position13>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="98" TopLine="96"/>
-      </Position13>
-      <Position14>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="97" TopLine="95"/>
-      </Position14>
-      <Position15>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="96" TopLine="94"/>
-      </Position15>
-      <Position16>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="95" TopLine="93"/>
-      </Position16>
-      <Position17>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="94" TopLine="92"/>
-      </Position17>
-      <Position18>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="93" TopLine="91"/>
-      </Position18>
-      <Position19>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="92" TopLine="90"/>
-      </Position19>
-      <Position20>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="91" TopLine="89"/>
-      </Position20>
-      <Position21>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="90" TopLine="88"/>
-      </Position21>
-      <Position22>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="89" TopLine="87"/>
-      </Position22>
-      <Position23>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="88" TopLine="86"/>
-      </Position23>
-      <Position24>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="87" TopLine="85"/>
-      </Position24>
-      <Position25>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="86" TopLine="84"/>
-      </Position25>
-      <Position26>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="85" TopLine="83"/>
-      </Position26>
-      <Position27>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="84" TopLine="82"/>
-      </Position27>
-      <Position28>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="83" TopLine="81"/>
-      </Position28>
-      <Position29>
-        <Filename Value="uteamstatsbyyear.pas"/>
-        <Caret Line="82" TopLine="80"/>
-      </Position29>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode=""/>

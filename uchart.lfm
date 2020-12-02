@@ -6,12 +6,13 @@ object frmChart: TfrmChart
   Caption = 'frmChart'
   ClientHeight = 356
   ClientWidth = 475
+  OnShow = FormShow
   LCLVersion = '2.0.6.0'
   object Chart1: TChart
     Left = 0
-    Height = 352
-    Top = 0
-    Width = 472
+    Height = 304
+    Top = 52
+    Width = 475
     AxisList = <    
       item
         Marks.LabelBrush.Style = bsClear
@@ -32,8 +33,33 @@ object frmChart: TfrmChart
     Title.Text.Strings = (
       'TAChart'
     )
+    Align = alBottom
     object Chart1LineSeries1: TLineSeries
     end
+  end
+  object cmbTypeStat: TComboBox
+    Left = 8
+    Height = 29
+    Top = 8
+    Width = 176
+    ItemHeight = 0
+    ItemIndex = 0
+    Items.Strings = (
+      'Passing'
+      'Rushing'
+      'Receiving'
+      'Tackles'
+      'Sacks'
+      'Interceptions'
+      'Kicking'
+      'Punting'
+      'Returning'
+    )
+    OnChange = cmbTypeStatChange
+    OnKeyDown = cmbTypeStatKeyDown
+    Style = csDropDownList
+    TabOrder = 1
+    Text = 'Passing'
   end
   object DbChartSource1: TDbChartSource
     left = 416

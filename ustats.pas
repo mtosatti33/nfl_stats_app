@@ -93,16 +93,13 @@ begin
 
   with frmChart do
   begin
-       DbChartSource1.DataSource := self.DataSource1;
-       DbChartSource1.FieldX:= 'Year';
-       DbChartSource1.FieldY:= 'Rate';
-       Chart1LineSeries1.ListSource.CopyFrom(DbChartSource1);
-       try
-          ShowModal;
+    DbChartSource1.DataSource := self.DataSource1;
+    try
+      ShowModal;
 
-       finally
-              DbChartSource1.Reset;
-       end;
+    finally
+      DbChartSource1.Reset;
+    end;
   end;
 end;
 

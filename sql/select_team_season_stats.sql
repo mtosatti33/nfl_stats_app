@@ -5,7 +5,7 @@ p."name" as "Player",
 p."position" as "Pos",
 count(g.game_id) as "G",
 -- Passing --
-cast(sum(g.passing_completions) || '/' || sum(g.passing_attempts) as varchar(15)) as "C/A",
+cast(sum(g.passing_completions) || '/' || sum(g.passing_attempts) as varchar(8)) as "C/A",
 sum(g.passing_completions)/cast(nullif(sum(g.passing_attempts),0) as decimal(5,2))*100 as "Pa.Pct",
 sum(g.passing_yards) as "Pa.Yds",
 sum(g.passing_touchdowns) as "Pa.TD",
@@ -72,7 +72,9 @@ sum(g.field_goal_attempts)+
 sum(g.point_after_attempts)+
 sum(g.punting_attempts) +
 sum(g.kick_return_attempts) + 
-sum(g.punt_return_attempts) <> 0
+sum(g.punt_return_attempts) +
+sum(g.fumbles_forced) +
+sum(g.fumbles_rec) <> 0
 order by 
 sum(g.passing_yards) desc, 
 sum(g.passing_attempts) desc,
